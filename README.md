@@ -55,7 +55,7 @@ This project is deployed using **GitHub Pages** and connected to a custom domain
 ## 📬 Contact
 
 - LinkedIn: https://www.linkedin.com/in/prathmesh-shinde
-- Email: yourmail@example.com
+- Email: shindeprathmesh27@outlook.com
 
 ---
 
