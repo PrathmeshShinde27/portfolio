@@ -1,0 +1,155 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid white;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skills span {
+  background: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: white;
+  padding: 15px 40px;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #333, #111);
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  opacity: 0.8;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+  margin: 30px auto;
+  max-width: 900px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  background: #fafafa;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #555;
+}
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  header {
+    padding: 50px 15px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  section {
+    margin: 15px;
+    padding: 20px;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+
+  .profile-img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* Card hover */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+/* Button hover */
+.button:hover {
+  background: #555;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
