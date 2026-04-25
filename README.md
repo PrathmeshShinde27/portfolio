@@ -1,74 +1,68 @@
-# 🌐 Prathmesh Shinde - Portfolio
+# Prathmesh Shinde Portfolio
 
-This is my personal portfolio website built using HTML and CSS, showcasing my skills, projects, and contact information.
+A clean, responsive personal portfolio website for Prathmesh Shinde, a QA Automation Engineer. The site highlights professional skills, project areas, resume access, and contact links in a simple static layout.
 
-🔗 Live Website: https://prathmeshshinde.com
+## Features
 
----
+- Responsive hero section with profile image
+- Sticky navigation with smooth scrolling
+- About, Skills, Projects, Resume, and Contact sections
+- Modern project cards with placeholder project detail buttons
+- Embedded resume preview with view and download options
+- Subtle scroll reveal animations using vanilla JavaScript
+- Mobile-friendly layout for phones, tablets, and desktops
 
-## 🚀 Features
-
-- Clean and responsive design
-- About Me section
-- Skills section
-- Projects showcase
-- Contact section with LinkedIn and email
-- Resume download option
-
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 - HTML5
 - CSS3
-- GitHub Pages (Hosting)
-- GoDaddy (Domain)
+- Vanilla JavaScript
+- Google Fonts
 
----
+No frameworks, backend, or build tools are required.
 
-## 📂 Project Structure
-portfolio/
-│── index.html
-│── style.css
-│── profile.jpg
-│── resume.pdf
+## Project Structure
 
----
+```text
+Portfolio/
+|-- index.html
+|-- style.css
+|-- script.js
+|-- Prathmesh_Shinde.jpg
+|-- Prathmesh_Shinde_Resume.pdf
+`-- README.md
+```
 
-## 📌 Setup & Run Locally
+## Files
 
-1. Clone the repository:
-    git clone https://github.com/PrathmeshShinde27/portfolio.git
-3. Open folder in VS Code
+- `index.html` contains the page structure and portfolio content.
+- `style.css` contains the complete visual styling, responsive layout, and animations.
+- `script.js` handles scroll reveal animations.
+- `Prathmesh_Shinde.jpg` is the profile image used in the hero section.
+- `Prathmesh_Shinde_Resume.pdf` is used for resume preview, viewing, and download.
 
-4. Run using Live Server  
-   or open `index.html` in browser
+## How To Run
 
----
+Open `index.html` directly in any modern web browser.
 
-## 🌍 Deployment
+Because this is a fully static website, it can also be hosted on GitHub Pages without additional setup.
 
-This project is deployed using **GitHub Pages** and connected to a custom domain via DNS configuration in GoDaddy.
+## GitHub Pages Deployment
 
----
+1. Push the project files to a GitHub repository.
+2. Open the repository settings.
+3. Go to **Pages**.
+4. Select the branch that contains `index.html`.
+5. Save the settings and wait for GitHub Pages to publish the site.
 
-## 📬 Contact
+## Customization
 
-- LinkedIn: https://www.linkedin.com/in/prathmesh-shinde
-- Email: shindeprathmesh27@outlook.com
+- Update personal text and section content in `index.html`.
+- Change colors, spacing, and layout styles in `style.css`.
+- Replace `Prathmesh_Shinde.jpg` to update the profile image.
+- Replace `Prathmesh_Shinde_Resume.pdf` to update the resume.
+- Keep project card buttons without links until project pages or repositories are ready.
 
----
+## Browser Support
 
-## 🧠 Future Improvements
-
-- Add real project links
-- Improve UI/UX
-- Add JavaScript for interactivity
-- Dark mode toggle
-- Animations on scroll
-
----
-
-## 📄 License
-
-This project is open-source and free to use.
+The portfolio works in modern browsers such as Chrome, Edge, Firefox, and Safari.
