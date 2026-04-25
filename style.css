@@ -320,21 +320,6 @@ main {
   transform: none;
 }
 
-.resume-section {
-  overflow: hidden;
-}
-
-.resume-preview {
-  width: 100%;
-  height: min(72vh, 640px);
-  min-height: 420px;
-  margin-top: 30px;
-  background: #ffffff;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-}
-
 .contact-section {
   background: linear-gradient(135deg, #12213d, #173b64);
   color: #ffffff;
@@ -437,10 +422,6 @@ main {
     width: 100%;
   }
 
-  .resume-preview {
-    height: 440px;
-    min-height: 360px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
